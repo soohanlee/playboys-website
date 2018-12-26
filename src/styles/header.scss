@@ -1,0 +1,29 @@
+@import '../styles/utility.scss';
+.container{
+    background: $primary;
+    margin-bottom: 5rem;
+}
+.wrap{
+    max-width: 1200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem 0;
+    .header-img{
+        flex: 7;
+        font-size: $font-size-xl;
+        background: url(../asset/img/logo.gif);
+       
+        background-position: left;
+        background-size: 100px 100px;
+        background-repeat: no-repeat;
+        h1{
+            display: none;
+        }
+    }
+    .header-menu{
+        flex: 3;
+        text-align: center;
+    }
+}

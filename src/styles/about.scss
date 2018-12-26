@@ -1,0 +1,21 @@
+.about-wrap{
+   display: flex;
+   margin: auto;
+   max-width: 1200px;
+    .about-img{
+            background: url(https://i.pinimg.com/originals/d1/dc/c5/d1dcc57266c22f028329b60e92866d30.jpg);
+            background-repeat: none;
+            background-position: center;
+            background-size: cover;
+            width: 40rem;
+            height: 40rem;
+            border-radius: 10px;
+            flex: 1.5;
+        }
+    .about-text{
+            flex: 1;
+            padding: 1rem;
+            padding-left: 3rem;
+            text-align: left;
+    }
+}
